@@ -4,6 +4,9 @@ IPComp is an interpolation-prediction-based lossy compressor designed specifical
 
 Even in non-progressive compression scenarios, where a single fixed precision is required, IPComp achieves high compression ratios, making it an efficient choice for lossy data reduction.
 
+## Citation
+[\[HPDC'25\] IPComp: Interpolation Based Progressive Lossy Compression for Scientific Applications](https://dl.acm.org/doi/10.1145/3731545.3731578)
+
 ## Key Features
  - Progressive Decompression: A single compressed file supports multiple precision levels, reducing storage and computation overhead for adaptive applications.
  - Incremental Loading: Higher-fidelity reconstructions require only additional data, minimizing I/O costs.
